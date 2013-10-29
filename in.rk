@@ -1,0 +1,28 @@
+# This is a Template file for The rk4 program
+# Courtesy of: John Brock
+
+# Number of Coupled equations
+2
+
+# Independent Variable
+t 
+
+# Dependent Variables (There should be one for each equation)
+x v
+
+# Initial Values
+0.0 4.0
+
+# Domain (gives the range of independent variable)
+0.0 30
+
+# Number of Partition Points
+10000
+
+# Function 1 (dx/dt)
+v
+
+# Function 2 (dv/dt)
+*(-1.0,x)
+
+ 
